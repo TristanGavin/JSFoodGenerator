@@ -1,0 +1,25 @@
+{
+  "name": "cs290final",
+  "version": "1.0.0",
+  "description": "recipe generating web application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MTHCS290Final/cs290Final.git"
+  },
+  "author": "Mathew, Tristan, Hugh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MTHCS290Final/cs290Final/issues"
+  },
+  "homepage": "https://github.com/MTHCS290Final/cs290Final#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.5.3"
+  }
+}
