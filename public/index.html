@@ -4,76 +4,174 @@ Dropdown list Source- https://stackoverflow.com/questions/9436488/how-to-display
 
 
 -->
-<DOCTYPE html>  
+<DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Can and Pantry, A Virtual Cookbook</title>
-    <link href="https://fonts.googleapis.com/css?family=Belleza&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="Final.css">                                                                                                                                                       
-  </head>
-  <body>
 
-    <header>
-        <h1 class="site-title"><a href="#">Can and Pantry, A Virtual Cookbook</a></h1>                                                             
+<head>
+   <meta charset="utf-8">
+   <title>Can and Pantry, A Virtual Cookbook</title>
+   <link href="https://fonts.googleapis.com/css?family=Belleza&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
+</head>
 
-    </header>
-    <main class="content">
-       <aside class="filter-container"> 
-          <h1> Food Groups </h1>
-	  <div class="filter-input-container">
-	  
-	     <form id="form" name="form" method="post" action="CheckBox.jsp">
-                <div style="overflow: auto; width: 100px; height: 80px; border: 1px solid #336699; padding-left: 5px">
-            	   <legend>Condition</legend>
-		   <div>
-                      <input type="checkbox" name="languages" value="English"> English<br>
-		      <label for="filter-condition-good">Good</label>
-                   </div>
- 		   <div>
-                      <input type="checkbox" name="languages" value="English"> English<br>
-                      <label for="filter-condition-good">Good</label>
-                   </div>
-		   <div>
-                      <input type="checkbox" name="languages" value="English"> English<br>
-                      <label for="filter-condition-good">Good</label>
-                   </div>
-		   <div>
-                      <input type="checkbox" name="languages" value="English"> English<br>
-                      <label for="filter-condition-good">Good</label>
-                   </div>
-		   <div>
-                      <input type="checkbox" name="languages" value="English"> English<br>
-                      <label for="filter-condition-good">Good</label>
-                   </div>
-		   <div>
-                      <input type="checkbox" name="languages" value="English"> English<br>
-                      <label for="filter-condition-good">Good</label>
-                   </div>
-                   <div>
-                      <input type="checkbox" name="languages" value="English"> English<br>
-                      <label for="filter-condition-good">Good</label>
-                   </div>
-                   <div>
-                      <input type="checkbox" name="languages" value="English"> English<br>
-                      <label for="filter-condition-good">Good</label>
-                   </div>
-                   <div>
-                      <input type="checkbox" name="languages" value="English"> English<br>
-                      <label for="filter-condition-good">Good</label>
-                   </div>
-                   <div>
-                      <input type="checkbox" name="languages" value="English"> English<br>
-                      <label for="filter-condition-good">Good</label>
-                   </div>
-                </div>
+<body>
 
-                <br/><input type="button" name="goto" onClick="selectCheckBox()"value="Check">
-             </form>
-          </div>
-   </body>
+   <header>
+      <h1 class="site-title"><a href="#">Can and Pantry, A Virtual Cookbook</a></h1>
+      <a href="Recipes">Recipes</a>
+      <a href="ownRecipe">Create Recipes</a>
+   </header>
+   <main class="content">
+         <h1> Food Groups </h1>
+
+      <section id="food-checkbox">
+         <div class="filter-input-container">
+            <form id="dairy" name="form" method="post" action="CheckBox.jsp">
+               <div>
+                  <legend>Dairy</legend>
+                  <div>
+                     <input type="checkbox" value="cheese">
+                     <label for="filter-condition-good">Cheese</label>
+                  </div>
+                  <div>
+                     <input type="checkbox" value="milk">
+                     <label for="filter-condition-good">Milk</label>
+                  </div>
+                  <div>
+                     <input type="checkbox" value="yogurt">
+                     <label for="filter-condition-good">Yogurt</label>
+                  </div>
+                  <div>
+                     <input type="checkbox" value="butter">
+                     <label for="filter-condition-good">Butter</label>
+                  </div>
+                  <div>
+                     <input type="checkbox" value="sour-cream">
+                     <label for="filter-condition-good">Sour-cream</label>
+                  </div>
+                  <div>
+                     <input type="checkbox" value="cottage-cheese">
+                     <label for="filter-condition-good">Cottage-cheese</label>
+                  </div>
+                  <div>
+                     <input type="checkbox" value="add-more">
+                     <label for="filter-condition-good">add-more</label>
+                  </div>
+               </div>
+            </form>
+         </div>
+
+         <div class="filter-input-container">
+               <form id="meats" name="form" method="post" action="CheckBox.jsp">
+                  <div>
+                     <legend>Meats</legend>
+                     <div>
+                        <input type="checkbox" value="beef">
+                        <label for="filter-condition-good">Beef</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" value="turkey">
+                        <label for="filter-condition-good">Turkey</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" value="chicken-breast">
+                        <label for="filter-condition-good">Chicken Breast</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" value="bacon">
+                        <label for="filter-condition-good">Bacon</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" value="sausage">
+                        <label for="filter-condition-good">Sausage</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" value="bison">
+                        <label for="filter-condition-good">Bison</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" value="add-more">
+                        <label for="filter-condition-good">add-more</label>
+                     </div>
+                  </div>
+               </form>
+            </div>
+
+            <div class="filter-input-container">
+                  <form id="vegetables" name="form" method="post" action="CheckBox.jsp">
+                     <div>
+                        <legend>Vegetables</legend>
+                        <div>
+                           <input type="checkbox" value="lettuce">
+                           <label for="filter-condition-good">Lettuce</label>
+                        </div>
+                        <div>
+                           <input type="checkbox" value="zucchini">
+                           <label for="filter-condition-good">Zucchini</label>
+                        </div>
+                        <div>
+                           <input type="checkbox" value="broccoli">
+                           <label for="filter-condition-good">Broccoli</label>
+                        </div>
+                        <div>
+                           <input type="checkbox" value="tomato">
+                           <label for="filter-condition-good">Tomato</label>
+                        </div>
+                        <div>
+                           <input type="checkbox" value="avacado">
+                           <label for="filter-condition-good">Avacado</label>
+                        </div>
+                        <div>
+                           <input type="checkbox" value="brussle-sprouts">
+                           <label for="filter-condition-good">Brussle Sprouts</label>
+                        </div>
+                        <div>
+                           <input type="checkbox" value="add-more">
+                           <label for="filter-condition-good">add-more</label>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+
+               <div class="filter-input-container">
+                     <form id="grains" name="form" method="post" action="CheckBox.jsp">
+                        <div>
+                           <legend>Grains</legend>
+                           <div>
+                              <input type="checkbox" value="rice">
+                              <label for="filter-condition-good">Rice</label>
+                           </div>
+                           <div>
+                              <input type="checkbox" value="quinoa">
+                              <label for="filter-condition-good">Quinoa</label>
+                           </div>
+                           <div>
+                              <input type="checkbox" value="pasta">
+                              <label for="filter-condition-good">Pasta</label>
+                           </div>
+                           <div>
+                              <input type="checkbox" value="">
+                              <label for="filter-condition-good">moreGrains?</label>
+                           </div>
+                           <div>
+                              <input type="checkbox" value="avacado">
+                              <label for="filter-condition-good">Avacado</label>
+                           </div>
+                           <div>
+                              <input type="checkbox" value="brussle-sprouts">
+                              <label for="filter-condition-good">Brussle Sprouts</label>
+                           </div>
+                           <div>
+                              <input type="checkbox" value="add-more">
+                              <label for="filter-condition-good">add-more</label>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+         </section>
+
+         <button type="button" id="generate-recipes">Get Recipes!</button>
+
+</body>
+
 </html>
-
-
-
-
