@@ -1,0 +1,12 @@
+{
+    "hamburger" : {
+        "name" : "Hamburger",
+        "ingredients" : [
+            {"ingredient": "Beef"},
+            {"ingredient": "Hamburger Buns"},
+            {"ingredient": "Cheese"},
+            {"ingredient": "Lettuce"},
+            {"ingredient": "Tomato"}
+        ]
+    }
+}
