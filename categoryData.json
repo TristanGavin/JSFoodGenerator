@@ -1,0 +1,36 @@
+{
+    "meats": {
+        "category": "Meats", 
+        "ingredients": [
+            {"ingredient" : "Beef"},
+            {"ingredient" : "Turkey"},
+            {"ingredient" : "Chicken Breast"},
+            {"ingredient" : "Bacon"},
+            {"ingredient" : "Sausage"},
+            {"ingredient" : "Bison"},
+            {"ingredient" : "add-more"}
+
+
+
+            
+        ]
+    },
+
+    "vegetables": {
+        "category": "Vegetables", 
+        "ingredients": [
+            {"ingredient" : "lettuce"},
+            {"ingredient" : "zucchini"},
+            {"ingredient" : "broccoli"},
+            {"ingredient" : "Tomato"},
+            {"ingredient" : "Avacado"},
+            {"ingredient" : "Brussle Sprouts"},
+            {"ingredient" : "add-more"}
+
+
+
+            
+        ]
+    }
+    
+}
