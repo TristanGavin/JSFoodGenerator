@@ -21,6 +21,14 @@ app.get('/', function (req, res, next) {
     res.status(200).sendFile(__dirname + '/public/index.html');
   });
 
+// sends index with categoryData to the body of main.
+app.get('/index.html', function(req, res, next){
+    console.log('success')
+    res.render('index', {
+        categoryData: categoryData
+    })
+});
+
   app.get("*", function (req, res, next) {
     console.log("not found");
     res.status(404);
