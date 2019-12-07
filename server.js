@@ -23,16 +23,16 @@ app.get('/', function (req, res, next) {
 
 // sends index with categoryData to the body of main.
 app.get('/index.html', function(req, res, next){
-    console.log('success')
+    console.log(req.url, 'success')
     res.render('index', {
         categoryData: categoryData
     })
 });
 
-  app.get("*", function (req, res, next) {
-    console.log("not found");
+app.get("*", function (req, res) {
+    console.log(req.url, "not found");
     res.status(404);
-  });
+});
 
 
 app.listen(port, function (err) {
