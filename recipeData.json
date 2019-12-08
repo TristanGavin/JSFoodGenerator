@@ -1,6 +1,7 @@
 {
     "hamburger" : {
         "name" : "Hamburger",
+        "photoURL" : "https://image.shutterstock.com/image-photo/hamburger-260nw-110864714.jpg",
         "ingredients" : [
             {"ingredient": "Beef"},
             {"ingredient": "Hamburger Buns"},
