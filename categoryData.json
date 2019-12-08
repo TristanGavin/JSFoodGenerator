@@ -8,11 +8,7 @@
             {"ingredient" : "Bacon"},
             {"ingredient" : "Sausage"},
             {"ingredient" : "Bison"},
-            {"ingredient" : "add-more"}
-
-
-
-            
+            {"ingredient" : "add-more"} 
         ]
     },
 
@@ -26,11 +22,34 @@
             {"ingredient" : "Avacado"},
             {"ingredient" : "Brussle Sprouts"},
             {"ingredient" : "add-more"}
+        ]
+    },
 
+    "Dairy": {
+        "category": "Dairy", 
+        "ingredients": [
+            {"ingredient" : "Cheese"},
+            {"ingredient" : "Milk"},
+            {"ingredient" : "Yogurt"},
+            {"ingredient" : "Butter"},
+            {"ingredient" : "Sour Cream"},
+            {"ingredient" : "Cottage Cheese"},
+            {"ingredient" : "add-more"}   
+        ]
+    },
 
-
-            
+    "Grains": {
+        "category": "Grains", 
+        "ingredients": [
+            {"ingredient" : "Rice"},
+            {"ingredient" : "Quinoa"},
+            {"ingredient" : "Pasta"},
+            {"ingredient" : "Hamburger Bun"},
+            {"ingredient" : "Oats"},
+            {"ingredient" : "Barley"},
+            {"ingredient" : "add-more"}   
         ]
     }
+
     
 }

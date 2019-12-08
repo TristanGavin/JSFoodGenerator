@@ -1,12 +1,13 @@
- <div class="filter-input-container">
-               <form id="{{category}}" name="form" method="post" action="CheckBox.jsp">
-                  <div>
-                     <legend>{{category}}</legend>
-                     {{#each ingredients}}
-                     <div>
-                        <input type="checkbox" value="{{ingredient}}">
-                        <label for="filter-condition-good">{{ingredient}}</label>
-                     </div>
-                     {{/each}}
-               </form>
-            </div>
+<div class="filter-input-container">
+   <form id="{{category}}" name="form" method="post" action="CheckBox.jsp">
+      <div>
+         <legend>{{category}}</legend>
+         {{#each ingredients}}
+         <div>
+            <input type="checkbox" value="{{ingredient}}">
+            <label for="filter-condition-good">{{ingredient}}</label>
+         </div>
+         {{/each}}
+      </div>
+   </form>
+</div>
