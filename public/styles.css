@@ -8,65 +8,99 @@ body{
     font-family: 'Belleza', sans-serif;
     margin: 0;
     overflow: hidden;
-    font-size: 20px;
+    font-size: 25px;
 
-
-
-}
-header{
-  color: #1a6509;
-  font-size: 30px;
-  align-items: center;
-  position: relative;
-  right: 10px;
-  text-decoration: none;
-}
-a{
-  color: #44211a;
-  text-decoration: none
-
-
-
-}
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-}
-#recipes-link{
-    position: relative;
-    display:  flex;
 
 
 }
 h1 {
   color: #f67811;
-  position: relative;
-  left: 150px;
 
 }
 
-a:hover {
-  text-decoration: underline;
+.site-title{
+  display: inline-block;
+  position: relative;
+  padding-left: 15px
+
+
+}
+h1.site-title{
+  font-size: 55px;
+  padding-left:3%;
+  //display: relative;
+
+
 }
 
 header{
-  display: flex;
   color: #1a6509;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px;
+  font-size: 30px;
+//  text-align: center;
+  text-decoration: none;
+  left: 9%;
+  display:flex;
+  background-color: #dededf ;
+
 }
 
+a{
+  color: #44211a;
+  text-decoration: none;
+  text-align: center;
+}
+.header a:hover {
+  background-color: #1a6509;
+}
 
+.header a {
+  color: black;
+  text-decoration: none;
+}
+#recipes-link {
+    margin-left: 3%;
+    padding: 5px;
+    vertical-align: center;
+    color: #000000;
+    display: inline-block;
 
-/* ==== Section Styles ====*/
+}
+
+#recipes-link:hover{
+  background-color: #ff7820;
+  border-radius: 2px;
+}
+#create-recipes-link{
+  display: inline-block;
+  padding-left:2%;
+  padding:  5px;
+  color: #000000
+}
+
+#create-recipes-link:hover{
+  background-color: #ff7820;
+  border-radius: 2px;
+}
+#food-Groups{
+  border-top: 10%;
+  padding: 0;
+  margin: 0;
+}
+#food-groups{
+    text-align: center;
+    position: relative;
+    right: 50px;
+    padding: 1%;
+    padding-top:5%;
+    top: 5%;
+}
+
 #food-checkbox{
     display: flex;
+    text-align: left;
+    position: relative;
+    margin-left: 5%;
+    padding: 0px 10% 2% 0px;
 }
 
 .filter-input-container{
@@ -76,18 +110,24 @@ header{
 }
 
 legend {
-    font-size: 20px;
+    font-size: 30px;
     color: #f67811;
 
 }
+.content{
+  position: relative;
+  bottom: 50px;
+  border: 0;
+  border: 0;
+}
 #generate-recipes{
 
-
-  margin: 5px;
-  position: relative;
-  width: 15rem;
-  display: flex;
-  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 34%;
+  width: 30%;
+  //display: inline-block;
+  //align-items: center;
   font-size: 30px;
   color: white;
   padding: 15px;
@@ -96,6 +136,14 @@ legend {
   border-radius: 5px;
   font-weight: lighter;
   cursor: pointer;
+
+
+}
+#generate-recipes:hover{
+    background-color:#f1f1f1;
+    border-color: #fff;
+    color:000;
+    border: 2px solid #ababab
 
 }
 #food-checkbox{
