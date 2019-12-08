@@ -29,6 +29,13 @@ app.get('/index.html', function(req, res, next){
     })
 });
 
+app.get('/recipes.html', function(req, res, next){
+    console.log(req.url, 'success')
+    res.render('recipe', {
+        recipeData: recipeData
+    })
+});
+
 app.get("*", function (req, res) {
     console.log(req.url, "not found");
     res.status(404);
