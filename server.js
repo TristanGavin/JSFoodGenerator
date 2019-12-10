@@ -18,15 +18,15 @@ app.set('view engine', 'handlebars');
 app.use(express.static('public'));
 
 app.get('/', function (req, res, next) {
-    res.status(200).sendFile(__dirname + '/public/index.html');
-  });
+  res.status(200).sendFile(__dirname + '/public/index.html');
+});
 
 // sends index with categoryData to the body of main.
 app.get('/index.html', function(req, res, next){
-    console.log(req.url, 'success')
-    res.render('index', {
-        categoryData: categoryData
-    })
+  console.log(req.url, 'success')
+  res.render('index', {
+      categoryData: categoryData
+  })
 });
 
 app.get('/recipes.html', function(req, res, next){

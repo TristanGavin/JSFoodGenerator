@@ -1,5 +1,5 @@
 /*
-Index.js 
+Index.js
 Tasks:
 when Get Recipes! button is clicked needs to filter available recipes and post them to the DOM.
 
@@ -7,12 +7,12 @@ when Get Recipes! button is clicked needs to filter available recipes and post t
 
 //get handlebarred recipe. (name= name of recipe, photurl=picture of recipe, ingredients= array of ingredients)
 function insertRecipe(name, photoURL, ingredients){
-    var recipeHTML = Handlebars.templates.recipe({
-        name: name,
-        photoURL: photoURL,
-        ingredients: ingredients,
-        });
-      console.log("==== postHTML", recipeHTML);
+  var recipeHTML = Handlebars.templates.recipe({
+      name: name,
+      photoURL: photoURL,
+      ingredients: ingredients,
+      });
+    console.log("==== postHTML", recipeHTML);
 };
 
 //insert recipeHTML into the dom
@@ -23,7 +23,28 @@ recipeContainer.insertAdjacentHTML('beforeend', recipeHTML);
 var getRecipesButton = document.getElementById("generate-recipes");
 getRecipesButton.addEventListener("click", generateRecipes());
 
-//checks all the checkboxes to see which ones are clicked. returns recipes containing checked checkboxes
+//  checks all the checkboxes to see which ones are clicked. returns recipes containing checked checkboxes
+//  preferably in order of how many boxes are checked
 function generateRecipes() {
-    
+  console.log("test");
+
+  var recipes = require('./../recipeData');
+
+  var boxes = document.getElementsByTagName('input');
+  if(window){
+    for(var i = 0; i < boxes.length; i++){
+      console.log(boxes[i].value);
+    }
+  }
+
+  var checkedIngredients = [];
+
+
+
 }
+
+
+
+
+
+//
