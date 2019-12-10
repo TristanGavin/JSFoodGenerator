@@ -1,45 +1,59 @@
 {
     "meats": {
-        "category": "Meats", 
+        "category": "Meats",
         "ingredients": [
             {"ingredient" : "Beef"},
             {"ingredient" : "Turkey"},
             {"ingredient" : "Chicken Breast"},
             {"ingredient" : "Bacon"},
+            {"ingredient" : "Ham"},
             {"ingredient" : "Sausage"},
             {"ingredient" : "Bison"},
-            {"ingredient" : "add-more"} 
+            {"ingredient" : "Shrimp"},
+            {"ingredient" : "Tuna"}
         ]
     },
-
     "vegetables": {
-        "category": "Vegetables", 
+        "category": "Vegetables",
         "ingredients": [
-            {"ingredient" : "lettuce"},
-            {"ingredient" : "zucchini"},
-            {"ingredient" : "broccoli"},
+            {"ingredient" : "Lettuce"},
+            {"ingredient" : "Zucchini"},
+            {"ingredient" : "Broccoli"},
             {"ingredient" : "Tomato"},
             {"ingredient" : "Avacado"},
             {"ingredient" : "Brussle Sprouts"},
-            {"ingredient" : "add-more"}
+            {"ingredient" : "Carrot"},
+            {"ingredient" : "Avacado"},
+            {"ingredient" : "Onion"},
+            {"ingredient" : "Peppers"},
+            {"ingredient" : "Cabbage"},
+            {"ingredient" : "Corn"},
+            {"ingredient" : "Squash"},
+            {"ingredient" : "Cucumber"},
+            {"ingredient" : "Celery"},
+            {"ingredient" : "Garlic"},
+            {"ingredient" : "Avacado"},
         ]
     },
 
     "Dairy": {
-        "category": "Dairy", 
+        "category": "Dairy",
         "ingredients": [
-            {"ingredient" : "Cheese"},
+            {"ingredient" : "Cheddar Cheese"},
+            {"ingredient" : "Mozzarella Cheese"},
+            {"ingredient" : "Parmesan Cheese"},
+            {"ingredient" : "Swiss Cheese"},
             {"ingredient" : "Milk"},
             {"ingredient" : "Yogurt"},
+            {"ingredient" : "Greek Yogurt"},
             {"ingredient" : "Butter"},
             {"ingredient" : "Sour Cream"},
             {"ingredient" : "Cottage Cheese"},
-            {"ingredient" : "add-more"}   
+            {"ingredient" : "Egg"}
         ]
     },
-
     "Grains": {
-        "category": "Grains", 
+        "category": "Grains",
         "ingredients": [
             {"ingredient" : "Rice"},
             {"ingredient" : "Quinoa"},
@@ -47,9 +61,40 @@
             {"ingredient" : "Hamburger Bun"},
             {"ingredient" : "Oats"},
             {"ingredient" : "Barley"},
-            {"ingredient" : "add-more"}   
+            {"ingredient" : "Bread"},
+            {"ingredient" : "Flour"},
+            {"ingredient" : "Potato"},
+            {"ingredient" : "Bread Crumbs"}
         ]
-    }
+    },
+  },
+  "Seasonings": {
+      "category": "Seasonings",
+      "ingredients": [
+          {"ingredient" : "Salt"},
+          {"ingredient" : "Black-Pepper"},
+          {"ingredient" : "Lemon"},
+          {"ingredient" : "Basil"},
+          {"ingredient" : "Parsley"},
+          {"ingredient" : "Tomato Paste"},
+          {"ingredient" : "Bay Leaf"},
+          {"ingredient" : "Red Wine"},
+          {"ingredient" : "Chicken Broth"},
+          {"ingredient" : "Paprika"},
+          {"ingredient" : "Thyme"}
+      ]
+  },
+  "Oils/Condiments": {
+      "category": "Seasonings",
+      "ingredients": [
+          {"ingredient" : "Salad Dressing"},
+          {"ingredient" : "Vinegar"},
+          {"ingredient" : "Olive Oil"},
+          {"ingredient" : "Vegetable Oil"},
+          {"ingredient" : "Coconut Oil"},
+          {"ingredient" : "Peanut Butter"},
+          {"ingredient" : "Mayonnaise"},
+          {"ingredient" : "Dijon Mustard"}
+      ]
 
-    
 }
