@@ -1,13 +1,557 @@
 {
     "hamburger" : {
         "name" : "Hamburger",
-        "photoURL" : "https://image.shutterstock.com/image-photo/hamburger-260nw-110864714.jpg",
         "ingredients" : [
             {"ingredient": "Beef"},
-            {"ingredient": "Hamburger Buns"},
+            {"ingredient": "Hamburger-Buns"},
             {"ingredient": "Cheese"},
             {"ingredient": "Lettuce"},
             {"ingredient": "Tomato"}
+        ]
+    },
+    "Salad" : {
+        "name" : "Salad",
+        "ingredients" : [
+            {"ingredient": "Lettuce"},
+            {"ingredient": "Tomato"},
+            {"ingredient": "Peppers"},
+            {"ingredient": "Cucumber"},
+            {"ingredient": "Olive Oil"}
+        ]
+    },
+    "Chicken Parmesan" : {
+        "name" : "Chicken Parmesan",
+        "ingredients" : [
+            {"ingredient": "Chicken"},
+            {"ingredient": "Black-Pepper"},
+            {"ingredient": "Eggs"},
+            {"ingredient": "Parmesan Cheese"},
+            {"ingredient": "Olive-Oil"},
+            {"ingredient": "Tomato"},
+            {"ingredient": "Flour"},
+            {"ingredient": "Mozzarella Cheese"},
+            {"ingredient": "Basil"},
+            {"ingredient": "Bread Crumbs"}
+
+        ]
+    },
+    "Zucchini and Kidney Bean Salad" : {
+        "name" : "Zucchini and Kidney Bean Salad",
+        "ingredients" : [
+            {"ingredient": "Vegetable Oil"},
+            {"ingredient": "Vinegar"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Zucchini"},
+            {"ingredient": "Kidney Beans"},
+            {"ingredient": "Mozzarella Cheese"},
+            {"ingredient": "Salt"}
+        ]
+    },
+    "BLT sandwhich" : {
+        "name" : "BLT sandwhich",
+        "ingredients" : [
+            {"ingredient": "Bacon"},
+            {"ingredient": "Lettuce"},
+            {"ingredient": "Tomato"},
+            {"ingredient": "Bread"}
+        ]
+    },
+    "Grilled Cheese Sandwhich" : {
+        "name" : "Grilled Cheese Sandwhich",
+        "ingredients" : [
+            {"ingredient": "Butter"},
+            {"ingredient": "Bread"},
+            {"ingredient": "Chedder Cheese"}
+        ]
+    },
+    "Chicken Salad" : {
+        "name" : "Chicken Salad",
+        "ingredients" : [
+            {"ingredient": "Mayonnaise"},
+            {"ingredient": "Greek Yogurt"},
+            {"ingredient": "Lemon"},
+            {"ingredient": "Chicken"},
+            {"ingredient": "Celery"},
+            {"ingredient": "Mozzarella Cheese"},
+            {"ingredient": "Parsley"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Dijon Mustard"}
+        ]
+    },
+    "Bacon Cheese Burger" : {
+        "name" : "Bacon Cheese Burger",
+        "ingredients" : [
+            {"ingredient": "Bacon"},
+            {"ingredient": "Beef"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Cheddar Cheese"}
+        ]
+    },
+    "Pasta With Tomato Sauce" : {
+        "name" : "Pasta With Tomato Sauce",
+        "ingredients" : [
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Garlic"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Tomato"},
+            {"ingredient": "Basil"},
+            {"ingredient": "Pasta"},
+            {"ingredient": "Parmesan Cheese"},
+            {"ingredient": "Black Pepper"}
+        ]
+    },
+    "Pasta Carbonara" : {
+        "name" : "Pasta Carbonara",
+        "ingredients" : [
+            {"ingredient": "Pasta"},
+            {"ingredient": "Garlic"},
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Bacon"},
+            {"ingredient": "Parsley"},
+            {"ingredient": "Eggs"},
+            {"ingredient": "Parmesan Cheese"},
+            {"ingredient": "Black Pepper"}
+        ]
+    },
+    "One Pot Pasta with Sausage" : {
+        "name" : "One Pot Pasta with Sausage",
+        "ingredients" : [
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Garlic"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Tomato"},
+            {"ingredient": "Carrot"},
+            {"ingredient": "Pasta"},
+            {"ingredient": "Tomato Paste"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Sausage"},
+            {"ingredient": "Parsley"}
+        ]
+    },
+    "Pasta Bolognese" : {
+        "name" : "Pasta Bolognese",
+        "ingredients" : [
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Garlic"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Tomato"},
+            {"ingredient": "Carrot"},
+            {"ingredient": "Pasta"},
+            {"ingredient": "Tomato Paste"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Beef"},
+            {"ingredient": "Red Wine"},
+            {"ingredient": "Celery"},
+            {"ingredient": "Bay Leaf"},
+            {"ingredient": "Parmesan Cheese"}
+        ]
+    },
+    "Rice Pilaf" : {
+        "name" : "Rice Pilaf",
+        "ingredients" : [
+            {"ingredient": "Butter"},
+            {"ingredient": "Carrot"},
+            {"ingredient": "Celery"},
+            {"ingredient": "Peppers"},
+            {"ingredient": "Garlic"},
+            {"ingredient": "Rice"},
+            {"ingredient": "Corn"},
+            {"ingredient": "Chicken Broth"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Beef"},
+            {"ingredient": "Red Wine"},
+            {"ingredient": "Parsley"},
+            {"ingredient": "Bay Leaf"},
+            {"ingredient": "Peas"}
+        ]
+    },
+    "Tuna Salad Sandwhich" : {
+        "name" : "Tuna Salad Sandwhich",
+        "ingredients" : [
+            {"ingredient": "Mayonnaise"},
+            {"ingredient": "Celery"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Tuna"},
+            {"ingredient": "Bread"}
+          ]
+    },
+    "Tuna Salad" : {
+        "name" : "Tuna Salad",
+        "ingredients" : [
+            {"ingredient": "Mayonnaise"},
+            {"ingredient": "Celery"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Tuna"}
+          ]
+    },
+    "Baked Chicken Schnitzel" : {
+        "name" : "Baked Chicken Schnitzel",
+        "ingredients" : [
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Chicken"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Flour"},
+            {"ingredient": "Egg"},
+            {"ingredient": "Bread Crumbs"},
+            {"ingredient": "Paprika"},
+            {"ingredient": "Lemon"}
+        ]
+    },
+    "Grilled Shrimp" : {
+        "name" : "Grilled Shrimp",
+        "ingredients" : [
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Tomato"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Flour"},
+            {"ingredient": "Shrimp"},
+            {"ingredient": "Bread Crumbs"},
+            {"ingredient": "Paprika"},
+            {"ingredient": "Garlic"},
+            {"ingredient": "Vinegar"},
+            {"ingredient": "Basil"},
+            {"ingredient": "Black Pepper"}
+        ]
+    },
+    "Chicken Cordon Bleu I" : {
+        "name" : "Chicken Cordon Bleu I",
+        "ingredients" : [
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Chicken"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Swiss Cheese"},
+            {"ingredient": "Ham"},
+            {"ingredient": "Bread Crumbs"}
+        ]
+    },
+    "Bacon Egg and Cheese Sandwhich with Avacado" : {
+        "name" : "Bacon Egg and Cheese Sandwhich with Avacado",
+        "ingredients" : [
+            {"ingredient": "Egg"},
+            {"ingredient": "Avacado"},
+            {"ingredient": "Bacon"},
+            {"ingredient": "Cheddar Cheese"},
+            {"ingredient": "Bread"}
+        ]
+    },
+    "Bacon Egg and Cheese Sandwhich" : {
+        "name" : "Bacon Egg and Cheese Sandwhich",
+        "ingredients" : [
+            {"ingredient": "Egg"},
+            {"ingredient": "Bacon"},
+            {"ingredient": "Cheddar Cheese"},
+            {"ingredient": "Bread"}
+        ]
+    },
+    "Mac and Cheese" : {
+        "name" : "Mac and Cheese",
+        "ingredients" : [
+            {"ingredient": "Pasta"},
+            {"ingredient": "Butter"},
+            {"ingredient": "Flour"},
+            {"ingredient": "Milk"},
+            {"ingredient": "Sour Cream"},
+            {"ingredient": "Cheddar Cheese"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"}
+        ]
+    },
+    "Breakfast Burger" : {
+        "name" : "Breakfast Burger",
+        "ingredients" : [
+            {"ingredient": "Beef"},
+            {"ingredient": "Butter"},
+            {"ingredient": "Egg"},
+            {"ingredient": "Potatoe"},
+            {"ingredient": "Cheddar Cheese"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Hamburger Buns"}
+        ]
+    },
+    "Hash Browns" : {
+        "name" : "Hash Browns",
+        "ingredients" : [
+            {"ingredient": "Potatoe"},
+            {"ingredient": "Butter"},
+            {"ingredient": "Paprika"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"}
+        ]
+    },
+    "Brussel Sprouts with Bacon" : {
+        "name" : "Brussel Sprouts with Bacon",
+        "ingredients" : [
+            {"ingredient": "Brussle Sprouts"},
+            {"ingredient": "Bacon"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"}
+        ]
+    },
+    "Chicken Potato Soup" : {
+        "name" : "Chicken Potato Soup",
+        "ingredients" : [
+            {"ingredient": "Potato"},
+            {"ingredient": "Chicken"},
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Carrot"},
+            {"ingredient": "Celery"},
+            {"ingredient": "Butter"},
+            {"ingredient": "Flour"},
+            {"ingredient": "Milk"},
+            {"ingredient": "Chicken Broth"},
+            {"ingredient": "Bacon"},
+            {"ingredient": "Cheddar Cheese"},
+            {"ingredient": "Sour Cream"}
+        ]
+    },
+    "MeatLoaf" : {
+        "name" : "Meatloaf",
+        "ingredients" : [
+            {"ingredient": "Basil"},
+            {"ingredient": "Tomato"},
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Bread Crumbs"},
+            {"ingredient": "Egg"},
+            {"ingredient": "Parmesan Cheese"},
+            {"ingredient": "Flour"},
+            {"ingredient": "Bacon"},
+            {"ingredient": "Beef"}
+        ]
+    },
+    "Italian Sausage Soup" : {
+        "name" : "Itatlian Sausage Soup",
+        "ingredients" : [
+            {"ingredient": "Sausage"},
+            {"ingredient": "Bacon"},
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Carrot"},
+            {"ingredient": "Butter"},
+            {"ingredient": "Chicken Broth"},
+            {"ingredient": "Potato"},
+            {"ingredient": "Milk"},
+            {"ingredient": "Celery"},
+            {"ingredient": "Garlic"}
+        ]
+    },
+    "Sicilian Chicken Soup" : {
+        "name" : "Sicilian Chicken Soup",
+        "ingredients" : [
+            {"ingredient": "Chicken"},
+            {"ingredient": "Peppers"},
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Carrot"},
+            {"ingredient": "Parsley"},
+            {"ingredient": "Chicken Broth"},
+            {"ingredient": "Potato"},
+            {"ingredient": "Garlic"},
+            {"ingredient": "Celery"},
+            {"ingredient": "Parmesan Cheese"},
+            {"ingredient": "Tomato"},
+            {"ingredient": "Pasta"}
+        ]
+    },
+    "Creamy Baked Eggs" : {
+        "name" : "Creamy Baked Eggs",
+        "ingredients" : [
+            {"ingredient": "Egg"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Butter"},
+            {"ingredient": "flour"},
+            {"ingredient": "Milk"},
+            {"ingredient": "Cheddar Cheese"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Peppers"},
+            {"ingredient": "Pasta"}
+        ]
+    },
+    "Colombian Eggs" : {
+        "name" : "Colombian Eggs",
+        "ingredients" : [
+            {"ingredient": "Egg"},
+            {"ingredient": "Tomato"},
+            {"ingredient": "Avacado"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Salt"}
+          ]
+    },
+    "Lemon Chicken" : {
+        "name" : "Lemon Chicken",
+        "ingredients" : [
+            {"ingredient": "Chicken"},
+            {"ingredient": "Butter"},
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Flour"},
+            {"ingredient": "Milk"},
+            {"ingredient": "Chicken Broth"},
+            {"ingredient": "Lemon"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Salt"}
+        ]
+    },
+    "Bacon Quiche" : {
+        "name" : "Bacon Quiche",
+        "ingredients" : [
+            {"ingredient": "Egg"},
+            {"ingredient": "Milk"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Bacon"},
+            {"ingredient": "Butter"},
+            {"ingredient": "Cheddar Cheese"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"}
+        ]
+    },
+    "Crispy Deep Fried Bacon" : {
+        "name" : "Crispy Deep Fried Bacon",
+        "ingredients" : [
+            {"ingredient": "Egg"},
+            {"ingredient": "Milk"},
+            {"ingredient": "Flour"},
+            {"ingredient": "Vegetable Oil"},
+            {"ingredient": "Bacon"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"}
+        ]
+    },
+    "Avocado, Chedder, and Tomato Omelet" : {
+        "name" : "Avocado, Chedder, and Tomato Omelet",
+        "ingredients" : [
+            {"ingredient": "Egg"},
+            {"ingredient": "Cheddar Cheese"},
+            {"ingredient": "Avocado"},
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Tomato"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"}
+        ]
+    },
+    "Broccoli With Seriously Cheesy Sauce" : {
+        "name" : "Broccoli With Seriously Cheesy Sauce",
+        "ingredients" : [
+            {"ingredient": "Broccoli"},
+            {"ingredient": "Butter"},
+            {"ingredient": "Flour"},
+            {"ingredient": "Milk"},
+            {"ingredient": "Cheddar Cheese"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"}
+        ]
+    },
+    "Poor Man's Chicken Fried Steak" : {
+        "name" : "Poor Man's Chicken Fried Steak",
+        "ingredients" : [
+            {"ingredient": "Beef"},
+            {"ingredient": "Vegetable Oil"},
+            {"ingredient": "Butter"},
+            {"ingredient": "Flour"},
+            {"ingredient": "Milk"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Egg"}
+        ]
+    },
+    "Pork Sausage Paddies" : {
+        "name" : "Pork Sausage Paddies",
+        "ingredients" : [
+            {"ingredient": "Egg"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Milk"},
+            {"ingredient": "Sausage"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Flour"}
+        ]
+    },
+    "Roasted Garlic and Lemon Potatoes" : {
+        "name" : "Roasted Garlic and Lemon Potatoes",
+        "ingredients" : [
+            {"ingredient": "Potato"},
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Butter"},
+            {"ingredient": "Garlic"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Lemon"}
+        ]
+    },
+    "Roasted Garlic Mashed Potatoes" : {
+        "name" : "Roasted Garlic Mashed Potatoes",
+        "ingredients" : [
+            {"ingredient": "Potato"},
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Butter"},
+            {"ingredient": "Garlic"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Milk"}
+        ]
+    },
+    "AIOLI (Garlic Mayonnaise)" : {
+        "name" : "AIOLI (Garlic Mayonnaise)",
+        "ingredients" : [
+            {"ingredient": "Egg"},
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Butter"},
+            {"ingredient": "Garlic"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Lemon"},
+            {"ingredient": "Parsley"}
+        ]
+    },
+    "Roasted Yellow Squash Salad" : {
+        "name" : "Roasted Yellow Squash Salad",
+        "ingredients" : [
+            {"ingredient": "Squash"},
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Parsley"},
+            {"ingredient": "Garlic"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Lemon"}
+        ]
+    },
+    "Cheesy Sausage and Pepper Stuffed Acorn Squash" : {
+        "name" : "Cheesy Sausage and Pepper Stuffed Acorn Squash",
+        "ingredients" : [
+            {"ingredient": "Squash"},
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Peppers"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Mozzarella Cheese"},
+            {"ingredient": "Parmesan Cheese"}
+        ]
+    },
+    "Pumpkin Pastina" : {
+        "name" : "Pumpkin Pastina",
+        "ingredients" : [
+            {"ingredient": "Chicken Broth"},
+            {"ingredient": "Olive Oil"},
+            {"ingredient": "Squash"},
+            {"ingredient": "Onion"},
+            {"ingredient": "Salt"},
+            {"ingredient": "Black Pepper"},
+            {"ingredient": "Turkey"},
+            {"ingredient": "Parmesan Cheese"},
+            {"ingredient": "Pasta"},
+            {"ingredient": "Thyme"}
         ]
     }
 }
