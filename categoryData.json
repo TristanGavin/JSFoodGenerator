@@ -32,7 +32,7 @@
             {"ingredient" : "Cucumber"},
             {"ingredient" : "Celery"},
             {"ingredient" : "Garlic"},
-            {"ingredient" : "Avacado"},
+            {"ingredient" : "Avacado"}
         ]
     },
 
@@ -67,26 +67,25 @@
             {"ingredient" : "Bread Crumbs"}
         ]
     },
-  },
-  "Seasonings": {
-      "category": "Seasonings",
-      "ingredients": [
-          {"ingredient" : "Salt"},
-          {"ingredient" : "Black-Pepper"},
-          {"ingredient" : "Lemon"},
-          {"ingredient" : "Basil"},
-          {"ingredient" : "Parsley"},
-          {"ingredient" : "Tomato Paste"},
-          {"ingredient" : "Bay Leaf"},
-          {"ingredient" : "Red Wine"},
-          {"ingredient" : "Chicken Broth"},
-          {"ingredient" : "Paprika"},
-          {"ingredient" : "Thyme"}
-      ]
-  },
-  "Oils/Condiments": {
-      "category": "Seasonings",
-      "ingredients": [
+    "Seasonings": {
+        "category": "Seasonings",
+        "ingredients": [
+            {"ingredient" : "Salt"},
+            {"ingredient" : "Black-Pepper"},
+            {"ingredient" : "Lemon"},
+            {"ingredient" : "Basil"},
+            {"ingredient" : "Parsley"},
+            {"ingredient" : "Tomato Paste"},
+            {"ingredient" : "Bay Leaf"},
+            {"ingredient" : "Red Wine"},
+            {"ingredient" : "Chicken Broth"},
+            {"ingredient" : "Paprika"},
+            {"ingredient" : "Thyme"}
+          ]
+    },
+    "Oils/Condiments": {
+        "category": "Oils/Condiments",
+        "ingredients": [
           {"ingredient" : "Salad Dressing"},
           {"ingredient" : "Vinegar"},
           {"ingredient" : "Olive Oil"},
@@ -96,5 +95,5 @@
           {"ingredient" : "Mayonnaise"},
           {"ingredient" : "Dijon Mustard"}
       ]
-
+    }
 }
