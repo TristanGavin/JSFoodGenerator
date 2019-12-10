@@ -52,7 +52,7 @@ header{
 
 /* ==== Section Styles ====*/
 
-#main-header {
+.main-header {
   font-size: 40px;
   margin: 20px 0px;
   text-align:center;
@@ -80,6 +80,7 @@ legend {
 
 }
 
+/* ==== Button Styles ==== */
 #generate-recipes{
   margin-left: 34%;
   width: 20%;
@@ -100,3 +101,15 @@ legend {
     border: 2px solid #ababab
 }
 
+
+/* ==== Recipe Card Photoes ==== */
+
+.recipe-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe{
+  height: 300px;
+  width: 300px;
+}
