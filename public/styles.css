@@ -110,6 +110,27 @@ legend {
 }
 
 .recipe{
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+  list-style-type: none;
+}
+
+.recipe-title{
+  color: #f67811;
+}
+
+.recipe-image-container > img {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.recipe-ingredients-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipe-ingredients-container > li {
+  flex-basis: 35%;
+  font-size: 18px;
 }
