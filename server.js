@@ -8,6 +8,7 @@ var exphbs = require('express-handlebars');
 var port = process.env.PORT || 3000;
 var categoryData = require('./categoryData');
 var recipeData = require('./recipeData');
+var fs = require('fs');
 
 
 //set handlebars to default for .render
@@ -20,6 +21,20 @@ app.use(express.static('public'));
 app.get('/', function (req, res, next) {
   res.status(200).sendFile(__dirname + '/public/index.html');
 });
+
+//  THIS SHOULD SERVE RECIPDATA.JSON TO INDEX.JS
+app.get('/recipes', function(req, res, next){
+
+  var recipeData = require('./recipeData.json');
+
+  // console.log(JSON.stringify(recipeData));
+
+  res.json(recipeData);
+
+});
+
+
+
 
 // sends index with categoryData to the body of main.
 app.get('/index.html', function(req, res, next){
