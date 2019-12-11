@@ -47,7 +47,7 @@ app.get('/index.html', function(req, res, next){
 app.get('/recipes.html', function(req, res, next){
     console.log(req.url, 'success')
     res.render('recipe', {
-        recipeData: recipeData
+        recipes: recipeData.recipes
     })
 });
 
