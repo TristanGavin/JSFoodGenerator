@@ -27,8 +27,6 @@ app.get('/recipes', function(req, res, next){
 
   var recipeData = require('./recipeData.json');
 
-  // console.log(JSON.stringify(recipeData));
-
   res.json(recipeData);
 
 });
@@ -40,7 +38,7 @@ app.get('/recipes', function(req, res, next){
 app.get('/index.html', function(req, res, next){
   console.log(req.url, 'success')
   res.render('index', {
-      categoryData: categoryData
+    categoryData: categoryData
   })
 });
 
