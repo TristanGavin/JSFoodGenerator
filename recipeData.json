@@ -1,6 +1,7 @@
 {
     "hamburger" : {
         "name" : "Hamburger",
+        "photoURL" :"https://previews.123rf.com/images/vm2002/vm20021610/vm2002161000883/65652233-classic-beef-burger-with-lettuce-tomatoes-cheese-beef-patty-and-bacon-selective-focus.jpg",
         "ingredients" : [
             {"ingredient": "Beef"},
             {"ingredient": "Hamburger-Buns"},
@@ -11,6 +12,7 @@
     },
     "Salad" : {
         "name" : "Salad",
+        "photoURL" :"https://www.dinneratthezoo.com/wp-content/uploads/2018/05/cucumber-tomato-salad-4.jpg",
         "ingredients" : [
             {"ingredient": "Lettuce"},
             {"ingredient": "Tomato"},
@@ -21,6 +23,7 @@
     },
     "Chicken Parmesan" : {
         "name" : "Chicken Parmesan",
+        "photoURL" :"https://www.spendwithpennies.com/wp-content/uploads/2018/11/SpendWithPennies-Chicken-Parmesan-24.jpg",
         "ingredients" : [
             {"ingredient": "Chicken"},
             {"ingredient": "Black-Pepper"},
@@ -37,6 +40,7 @@
     },
     "Zucchini and Kidney Bean Salad" : {
         "name" : "Zucchini and Kidney Bean Salad",
+        "photoURL" :"https://food.unl.edu/recipes/zucchini-kidney-bean-recipe.jpg",
         "ingredients" : [
             {"ingredient": "Vegetable Oil"},
             {"ingredient": "Vinegar"},
@@ -49,6 +53,7 @@
     },
     "BLT sandwhich" : {
         "name" : "BLT sandwhich",
+        "photoURL" :"https://www.closetcooking.com/wp-content/uploads/2012/09/BLTSandwich5005810-3.jpg",
         "ingredients" : [
             {"ingredient": "Bacon"},
             {"ingredient": "Lettuce"},
@@ -58,6 +63,7 @@
     },
     "Grilled Cheese Sandwhich" : {
         "name" : "Grilled Cheese Sandwhich",
+        "photoURL" :"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/2/24/0/ZB0202H_classic-american-grilled-cheese_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371603614279.jpeg",
         "ingredients" : [
             {"ingredient": "Butter"},
             {"ingredient": "Bread"},
@@ -66,6 +72,7 @@
     },
     "Chicken Salad" : {
         "name" : "Chicken Salad",
+        "photoURL" :"https://dinnerthendessert.com/wp-content/uploads/2019/01/Classic-Chicken-Salad-2.jpg",
         "ingredients" : [
             {"ingredient": "Mayonnaise"},
             {"ingredient": "Greek Yogurt"},
@@ -81,6 +88,7 @@
     },
     "Bacon Cheese Burger" : {
         "name" : "Bacon Cheese Burger",
+        "photoURL" :"https://d1doqjmisr497k.cloudfront.net/-/media/mccormick-us/recipes/frenchs/t/800/triple_mustard_bacon_cheese_burger800x800.jpg",
         "ingredients" : [
             {"ingredient": "Bacon"},
             {"ingredient": "Beef"},
@@ -90,6 +98,7 @@
     },
     "Pasta With Tomato Sauce" : {
         "name" : "Pasta With Tomato Sauce",
+        "photoURL" :"https://www.budgetbytes.com/wp-content/uploads/2016/07/Pasta-with-Butter-Tomato-Sauce-and-Toasted-Bread-Crumbs-forkful.jpg",
         "ingredients" : [
             {"ingredient": "Olive Oil"},
             {"ingredient": "Garlic"},
@@ -103,6 +112,7 @@
     },
     "Pasta Carbonara" : {
         "name" : "Pasta Carbonara",
+        "photoURL" :"https://static01.nyt.com/images/2018/08/10/dining/carbonara-horizontal/carbonara-horizontal-articleLarge.jpg",
         "ingredients" : [
             {"ingredient": "Pasta"},
             {"ingredient": "Garlic"},
@@ -116,6 +126,7 @@
     },
     "One Pot Pasta with Sausage" : {
         "name" : "One Pot Pasta with Sausage",
+        "photoURL" :"https://www.twopeasandtheirpod.com/wp-content/uploads/2017/02/One-Pot-Sausage-Pasta-1.jpg",
         "ingredients" : [
             {"ingredient": "Olive Oil"},
             {"ingredient": "Garlic"},
@@ -132,6 +143,7 @@
     },
     "Pasta Bolognese" : {
         "name" : "Pasta Bolognese",
+        "photoURL" :"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.errenskitchen.com%2Fwp-content%2Fuploads%2F2015%2F02%2FQuick-Easy-Spaghetti-Bolognese2-1.jpg&f=1&nofb=1",
         "ingredients" : [
             {"ingredient": "Olive Oil"},
             {"ingredient": "Garlic"},
@@ -151,6 +163,7 @@
     },
     "Rice Pilaf" : {
         "name" : "Rice Pilaf",
+        "photoURL" :"https://jayne-rain.com/wp-content/uploads/2018/05/beef_pilau_rice.jpg",
         "ingredients" : [
             {"ingredient": "Butter"},
             {"ingredient": "Carrot"},
@@ -170,6 +183,7 @@
     },
     "Tuna Salad Sandwhich" : {
         "name" : "Tuna Salad Sandwhich",
+        "photoURL" :"https://www.simplyrecipes.com/wp-content/uploads/2018/07/Add-ins-for-tuna-salad-2.jpg",
         "ingredients" : [
             {"ingredient": "Mayonnaise"},
             {"ingredient": "Celery"},
@@ -180,6 +194,7 @@
     },
     "Tuna Salad" : {
         "name" : "Tuna Salad",
+        "photoURL" :"https://dinnerthendessert.com/wp-content/uploads/2019/01/Tuna-Salad-500x500.jpg",
         "ingredients" : [
             {"ingredient": "Mayonnaise"},
             {"ingredient": "Celery"},
@@ -189,6 +204,7 @@
     },
     "Baked Chicken Schnitzel" : {
         "name" : "Baked Chicken Schnitzel",
+        "photoURL" :"https://www.sprinklesandsprouts.com/wp-content/uploads/2019/04/Crispy-Oven-Baked-Chicken-Schnitzel-SQ.jpg",
         "ingredients" : [
             {"ingredient": "Olive Oil"},
             {"ingredient": "Chicken"},
@@ -202,6 +218,7 @@
     },
     "Grilled Shrimp" : {
         "name" : "Grilled Shrimp",
+        "photoURL" :"https://images.media-allrecipes.com/userphotos/560x315/13575.jpg",
         "ingredients" : [
             {"ingredient": "Olive Oil"},
             {"ingredient": "Tomato"},
@@ -218,6 +235,7 @@
     },
     "Chicken Cordon Bleu I" : {
         "name" : "Chicken Cordon Bleu I",
+        "photoURL" :"https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/97867.jpg",
         "ingredients" : [
             {"ingredient": "Black Pepper"},
             {"ingredient": "Chicken"},
@@ -229,6 +247,7 @@
     },
     "Bacon Egg and Cheese Sandwhich with Avacado" : {
         "name" : "Bacon Egg and Cheese Sandwhich with Avacado",
+        "photoURL" :"https://www.landolakes.com/RecipeManagementSystem/media/Recipe-Media-Files/Recipes/Retail/x17/2018_Avocado-and-Bacon-Grilled-Cheese_2644_600x600.jpg?ext=.jpg",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Avacado"},
@@ -239,6 +258,7 @@
     },
     "Bacon Egg and Cheese Sandwhich" : {
         "name" : "Bacon Egg and Cheese Sandwhich",
+        "photoURL" :"https://www.oliviascuisine.com/wp-content/uploads/2016/07/ny-bacon-egg-cheese-sandwich-IG.jpg",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Bacon"},
@@ -248,6 +268,7 @@
     },
     "Mac and Cheese" : {
         "name" : "Mac and Cheese",
+        "photoURL" :"https://spicysouthernkitchen.com/wp-content/uploads/Velvet-Mac-and-Cheese-10.jpg",
         "ingredients" : [
             {"ingredient": "Pasta"},
             {"ingredient": "Butter"},
@@ -261,6 +282,7 @@
     },
     "Breakfast Burger" : {
         "name" : "Breakfast Burger",
+        "photoURL" :"https://www.honeyandbirch.com/wp-content/uploads/2019/05/breakfast-black-bean-burger-19-720x720.jpg",
         "ingredients" : [
             {"ingredient": "Beef"},
             {"ingredient": "Butter"},
@@ -274,6 +296,7 @@
     },
     "Hash Browns" : {
         "name" : "Hash Browns",
+        "photoURL" :"https://images.media-allrecipes.com/userphotos/960x960/5965667.jpg",
         "ingredients" : [
             {"ingredient": "Potatoe"},
             {"ingredient": "Butter"},
@@ -284,6 +307,7 @@
     },
     "Brussel Sprouts with Bacon" : {
         "name" : "Brussel Sprouts with Bacon",
+        "photoURL" :"https://images.media-allrecipes.com/userphotos/960x960/4572835.jpg",
         "ingredients" : [
             {"ingredient": "Brussle Sprouts"},
             {"ingredient": "Bacon"},
@@ -293,6 +317,7 @@
     },
     "Chicken Potato Soup" : {
         "name" : "Chicken Potato Soup",
+        "photoURL" :"https://www.eatwell101.com/wp-content/uploads/2017/01/crock-pot-chicken-potato-soup-recipe-800x800.jpg",
         "ingredients" : [
             {"ingredient": "Potato"},
             {"ingredient": "Chicken"},
@@ -312,7 +337,8 @@
         ]
     },
     "MeatLoaf" : {
-        "name" : "Meatloaf",
+          "name" : "Meatloaf",
+        "photoURL" :"https://www.jessicagavin.com/wp-content/uploads/2018/11/meatloaf-6-1200.jpg",
         "ingredients" : [
             {"ingredient": "Basil"},
             {"ingredient": "Tomato"},
@@ -330,6 +356,7 @@
     },
     "Italian Sausage Soup" : {
         "name" : "Itatlian Sausage Soup",
+        "photoURL" :"https://www.tasteofhome.com/wp-content/uploads/2018/01/exps190710_TH163619D09_30_5b-1-696x696.jpg",
         "ingredients" : [
             {"ingredient": "Sausage"},
             {"ingredient": "Bacon"},
@@ -348,6 +375,7 @@
     },
     "Sicilian Chicken Soup" : {
         "name" : "Sicilian Chicken Soup",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Chicken"},
             {"ingredient": "Peppers"},
@@ -368,6 +396,7 @@
     },
     "Creamy Baked Eggs" : {
         "name" : "Creamy Baked Eggs",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Onion"},
@@ -382,6 +411,7 @@
     },
     "Colombian Eggs" : {
         "name" : "Colombian Eggs",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Tomato"},
@@ -393,6 +423,7 @@
     },
     "Lemon Chicken" : {
         "name" : "Lemon Chicken",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Chicken"},
             {"ingredient": "Butter"},
@@ -407,6 +438,7 @@
     },
     "Bacon Quiche" : {
         "name" : "Bacon Quiche",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Milk"},
@@ -420,6 +452,7 @@
     },
     "Crispy Deep Fried Bacon" : {
         "name" : "Crispy Deep Fried Bacon",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Milk"},
@@ -432,6 +465,7 @@
     },
     "Avocado, Chedder, and Tomato Omelet" : {
         "name" : "Avocado, Chedder, and Tomato Omelet",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Cheddar Cheese"},
@@ -444,6 +478,7 @@
     },
     "Broccoli With Seriously Cheesy Sauce" : {
         "name" : "Broccoli With Seriously Cheesy Sauce",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Broccoli"},
             {"ingredient": "Butter"},
@@ -456,6 +491,7 @@
     },
     "Poor Man's Chicken Fried Steak" : {
         "name" : "Poor Man's Chicken Fried Steak",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Beef"},
             {"ingredient": "Vegetable Oil"},
@@ -468,6 +504,7 @@
     },
     "Pork Sausage Paddies" : {
         "name" : "Pork Sausage Paddies",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Onion"},
@@ -480,6 +517,7 @@
     },
     "Roasted Garlic and Lemon Potatoes" : {
         "name" : "Roasted Garlic and Lemon Potatoes",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Potato"},
             {"ingredient": "Olive Oil"},
@@ -492,6 +530,7 @@
     },
     "Roasted Garlic Mashed Potatoes" : {
         "name" : "Roasted Garlic Mashed Potatoes",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Potato"},
             {"ingredient": "Olive Oil"},
@@ -504,6 +543,7 @@
     },
     "AIOLI (Garlic Mayonnaise)" : {
         "name" : "AIOLI (Garlic Mayonnaise)",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Olive Oil"},
@@ -517,6 +557,7 @@
     },
     "Roasted Yellow Squash Salad" : {
         "name" : "Roasted Yellow Squash Salad",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Squash"},
             {"ingredient": "Olive Oil"},
@@ -528,6 +569,7 @@
     },
     "Cheesy Sausage and Pepper Stuffed Acorn Squash" : {
         "name" : "Cheesy Sausage and Pepper Stuffed Acorn Squash",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Squash"},
             {"ingredient": "Olive Oil"},
@@ -541,6 +583,7 @@
     },
     "Pumpkin Pastina" : {
         "name" : "Pumpkin Pastina",
+        "photoURL" :"",
         "ingredients" : [
             {"ingredient": "Chicken Broth"},
             {"ingredient": "Olive Oil"},
