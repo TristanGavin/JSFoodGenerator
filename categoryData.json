@@ -93,5 +93,17 @@
           {"ingredient" : "Mayonnaise"},
           {"ingredient" : "Dijon Mustard"}
       ]
+    },
+    "Legumes": {
+        "category": "Legumes",
+        "ingredients": [
+          {"ingredient" : "Green Beans"},
+          {"ingredient" : "Peas"},
+          {"ingredient" : "Black Beans"},
+          {"ingredient" : "Lentils"},
+          {"ingredient" : "Chickpeas"},
+          {"ingredient" : "Kidney Beans"}
+      ]
     }
+
 }

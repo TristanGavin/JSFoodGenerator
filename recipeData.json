@@ -1,7 +1,7 @@
 {
     "hamburger" : {
         "name" : "Hamburger",
-        "photoURL" :"https://previews.123rf.com/images/vm2002/vm20021610/vm2002161000883/65652233-classic-beef-burger-with-lettuce-tomatoes-cheese-beef-patty-and-bacon-selective-focus.jpg",
+        "photoURL" :"https://cookingwithcurls.com/wp-content/uploads/2016/06/These-amazing-Smashed-Burgers-are-simple-to-make-loaded-with-flavor-and-make-going-to-a-burger-joint-disappointing-cookingwit-500x500.jpg",
         "ingredients" : [
             {"ingredient": "Beef"},
             {"ingredient": "Hamburger-Buns"},
@@ -12,7 +12,7 @@
     },
     "Salad" : {
         "name" : "Salad",
-        "photoURL" :"https://www.dinneratthezoo.com/wp-content/uploads/2018/05/cucumber-tomato-salad-4.jpg",
+        "photoURL" :"https://www.thespruceeats.com/thmb/wVOGDIIb6b-lfnFHcWPj7-bZZIU=/1672x1672/smart/filters:no_upscale()/perfectgreensalad2500-5993ab28c412440011db26df.jpg",
         "ingredients" : [
             {"ingredient": "Lettuce"},
             {"ingredient": "Tomato"},
@@ -23,7 +23,7 @@
     },
     "Chicken Parmesan" : {
         "name" : "Chicken Parmesan",
-        "photoURL" :"https://www.spendwithpennies.com/wp-content/uploads/2018/11/SpendWithPennies-Chicken-Parmesan-24.jpg",
+        "photoURL" :"https://www.cookingclassy.com/wp-content/uploads/2013/02/chicken-parmesan-16-500x500.jpg",
         "ingredients" : [
             {"ingredient": "Chicken"},
             {"ingredient": "Black-Pepper"},
@@ -38,32 +38,32 @@
 
         ]
     },
-    "Zucchini and Kidney Bean Salad" : {
-        "name" : "Zucchini and Kidney Bean Salad",
+    "Zucchini and  Green Bean Salad" : {
+        "name" : "Zucchini and  Green Bean Salad",
         "photoURL" :"https://food.unl.edu/recipes/zucchini-kidney-bean-recipe.jpg",
         "ingredients" : [
             {"ingredient": "Vegetable Oil"},
             {"ingredient": "Vinegar"},
             {"ingredient": "Black Pepper"},
             {"ingredient": "Zucchini"},
-            {"ingredient": "Kidney Beans"},
-            {"ingredient": "Mozzarella Cheese"},
+            {"ingredient": "Green Beans"},
             {"ingredient": "Salt"}
         ]
     },
     "BLT sandwhich" : {
         "name" : "BLT sandwhich",
-        "photoURL" :"https://www.closetcooking.com/wp-content/uploads/2012/09/BLTSandwich5005810-3.jpg",
+        "photoURL" :"https://res.cloudinary.com/hksqkdlah/image/upload/v1481143592/31058_sfs-ultimate-blt-sandwich-16.jpg",
         "ingredients" : [
             {"ingredient": "Bacon"},
             {"ingredient": "Lettuce"},
             {"ingredient": "Tomato"},
-            {"ingredient": "Bread"}
+            {"ingredient": "Bread"},
+            {"ingredient": "Mayonnaise"}
         ]
     },
     "Grilled Cheese Sandwhich" : {
         "name" : "Grilled Cheese Sandwhich",
-        "photoURL" :"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/2/24/0/ZB0202H_classic-american-grilled-cheese_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371603614279.jpeg",
+        "photoURL" :"https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/Super-Grilled-Cheese-Sandwiches_exps39652_TOHCS2321916B06_14_3b_RMS.jpg",
         "ingredients" : [
             {"ingredient": "Butter"},
             {"ingredient": "Bread"},
@@ -72,7 +72,7 @@
     },
     "Chicken Salad" : {
         "name" : "Chicken Salad",
-        "photoURL" :"https://dinnerthendessert.com/wp-content/uploads/2019/01/Classic-Chicken-Salad-2.jpg",
+        "photoURL" :"https://dinnerthendessert.com/wp-content/uploads/2019/01/Classic-Chicken-Salad-2-500x500.jpg",
         "ingredients" : [
             {"ingredient": "Mayonnaise"},
             {"ingredient": "Greek Yogurt"},
@@ -98,7 +98,7 @@
     },
     "Pasta With Tomato Sauce" : {
         "name" : "Pasta With Tomato Sauce",
-        "photoURL" :"https://www.budgetbytes.com/wp-content/uploads/2016/07/Pasta-with-Butter-Tomato-Sauce-and-Toasted-Bread-Crumbs-forkful.jpg",
+        "photoURL" :"https://steemitimages.com/p/o1AJ9qDyyJNSg3j52kokyfvD831NZXqF92M1fFLfFKGir4974?format=match&mode=fit&width=640",
         "ingredients" : [
             {"ingredient": "Olive Oil"},
             {"ingredient": "Garlic"},
@@ -112,7 +112,7 @@
     },
     "Pasta Carbonara" : {
         "name" : "Pasta Carbonara",
-        "photoURL" :"https://static01.nyt.com/images/2018/08/10/dining/carbonara-horizontal/carbonara-horizontal-articleLarge.jpg",
+        "photoURL" :"https://d1doqjmisr497k.cloudfront.net/-/media/mccormick-us/recipes/grill-mates/s/800/smoky_applewood_bacon_pasta_carbonara_800x800.jpg",
         "ingredients" : [
             {"ingredient": "Pasta"},
             {"ingredient": "Garlic"},
@@ -126,7 +126,7 @@
     },
     "One Pot Pasta with Sausage" : {
         "name" : "One Pot Pasta with Sausage",
-        "photoURL" :"https://www.twopeasandtheirpod.com/wp-content/uploads/2017/02/One-Pot-Sausage-Pasta-1.jpg",
+        "photoURL" :"https://www.smells-like-home.com/wp-content/uploads/2017/03/One-Pot-Creamy-Sausage-Pasta-square-cropped.jpeg",
         "ingredients" : [
             {"ingredient": "Olive Oil"},
             {"ingredient": "Garlic"},
@@ -143,7 +143,7 @@
     },
     "Pasta Bolognese" : {
         "name" : "Pasta Bolognese",
-        "photoURL" :"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.errenskitchen.com%2Fwp-content%2Fuploads%2F2015%2F02%2FQuick-Easy-Spaghetti-Bolognese2-1.jpg&f=1&nofb=1",
+        "photoURL" :"https://www.recipetineats.com/wp-content/uploads/2018/07/Spaghetti-Bolognese-500x500.jpg",
         "ingredients" : [
             {"ingredient": "Olive Oil"},
             {"ingredient": "Garlic"},
@@ -163,7 +163,7 @@
     },
     "Rice Pilaf" : {
         "name" : "Rice Pilaf",
-        "photoURL" :"https://jayne-rain.com/wp-content/uploads/2018/05/beef_pilau_rice.jpg",
+        "photoURL" :"https://photo.foodgawker.com/wp-content/uploads/2019/04/3420589.jpg",
         "ingredients" : [
             {"ingredient": "Butter"},
             {"ingredient": "Carrot"},
@@ -183,18 +183,20 @@
     },
     "Tuna Salad Sandwhich" : {
         "name" : "Tuna Salad Sandwhich",
-        "photoURL" :"https://www.simplyrecipes.com/wp-content/uploads/2018/07/Add-ins-for-tuna-salad-2.jpg",
+        "photoURL" :"https://kristineskitchenblog.com/wp-content/uploads/2019/05/tuna-salad-700-6061-1-500x500.jpg",
         "ingredients" : [
             {"ingredient": "Mayonnaise"},
             {"ingredient": "Celery"},
             {"ingredient": "Onion"},
             {"ingredient": "Tuna"},
-            {"ingredient": "Bread"}
+            {"ingredient": "Bread"},
+            {"ingredient": "Lettuce"}
+
           ]
     },
     "Tuna Salad" : {
         "name" : "Tuna Salad",
-        "photoURL" :"https://dinnerthendessert.com/wp-content/uploads/2019/01/Tuna-Salad-500x500.jpg",
+        "photoURL" :"https://www.thespruceeats.com/thmb/75jZIq3ty50YXmHFdpNg5VzMNVs=/3000x3000/smart/filters:no_upscale()/tuna-salad-with-chopped-eggs-and-dill-3061725-hero-01-5c290d1c46e0fb00012da426.jpg",
         "ingredients" : [
             {"ingredient": "Mayonnaise"},
             {"ingredient": "Celery"},
@@ -204,7 +206,7 @@
     },
     "Baked Chicken Schnitzel" : {
         "name" : "Baked Chicken Schnitzel",
-        "photoURL" :"https://www.sprinklesandsprouts.com/wp-content/uploads/2019/04/Crispy-Oven-Baked-Chicken-Schnitzel-SQ.jpg",
+        "photoURL" :"https://images.media-allrecipes.com/userphotos/3455742.jpg",
         "ingredients" : [
             {"ingredient": "Olive Oil"},
             {"ingredient": "Chicken"},
@@ -218,7 +220,7 @@
     },
     "Grilled Shrimp" : {
         "name" : "Grilled Shrimp",
-        "photoURL" :"https://images.media-allrecipes.com/userphotos/560x315/13575.jpg",
+        "photoURL" :"https://cdn-image.myrecipes.com/sites/default/files/image/recipes/sl/08/06/fried-shrimp-sl-1806891-x.jpg",
         "ingredients" : [
             {"ingredient": "Olive Oil"},
             {"ingredient": "Tomato"},
@@ -375,7 +377,7 @@
     },
     "Sicilian Chicken Soup" : {
         "name" : "Sicilian Chicken Soup",
-        "photoURL" :"",
+        "photoURL" :"https://food-fanatic-res.cloudinary.com/iu/s--BIDdA6s4--/c_thumb,f_auto,g_auto,h_1200,q_auto,w_1200/v1461761431/sicilian-chicken-soup-photo",
         "ingredients" : [
             {"ingredient": "Chicken"},
             {"ingredient": "Peppers"},
@@ -396,7 +398,7 @@
     },
     "Creamy Baked Eggs" : {
         "name" : "Creamy Baked Eggs",
-        "photoURL" :"",
+        "photoURL" :"https://www.jocooks.com/wp-content/uploads/2011/07/baked-parmesan-creamy-eggs-1.jpg",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Onion"},
@@ -411,7 +413,7 @@
     },
     "Colombian Eggs" : {
         "name" : "Colombian Eggs",
-        "photoURL" :"",
+        "photoURL" :"http://www.diversivore.com/wp-content/uploads/2018/04/Perico-vertical-square-3.jpg",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Tomato"},
@@ -423,7 +425,7 @@
     },
     "Lemon Chicken" : {
         "name" : "Lemon Chicken",
-        "photoURL" :"",
+        "photoURL" :"https://images.media-allrecipes.com/userphotos/960x960/6487867.jpg",
         "ingredients" : [
             {"ingredient": "Chicken"},
             {"ingredient": "Butter"},
@@ -438,7 +440,7 @@
     },
     "Bacon Quiche" : {
         "name" : "Bacon Quiche",
-        "photoURL" :"",
+        "photoURL" :"https://natashaskitchen.com/wp-content/uploads/2019/11/Classic-Quiche-Lorraine-Recipe-Beautiful-flaky-pastry-crust-is-paired-with-a-delicious-savory-egg-custard.-Perfect-for-breakfast-or-brunch.-1-4-500x500.jpg",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Milk"},
@@ -452,7 +454,7 @@
     },
     "Crispy Deep Fried Bacon" : {
         "name" : "Crispy Deep Fried Bacon",
-        "photoURL" :"",
+        "photoURL" :"https://image.zmenu.com/large/234414/20150121053055139165.jpg",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Milk"},
@@ -465,7 +467,7 @@
     },
     "Avocado, Chedder, and Tomato Omelet" : {
         "name" : "Avocado, Chedder, and Tomato Omelet",
-        "photoURL" :"",
+        "photoURL" :"https://www.smuckersrms.com/PhotoImage.ashx?recipeid=914&w=600&h=600",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Cheddar Cheese"},
@@ -478,7 +480,7 @@
     },
     "Broccoli With Seriously Cheesy Sauce" : {
         "name" : "Broccoli With Seriously Cheesy Sauce",
-        "photoURL" :"",
+        "photoURL" :"https://unsophisticook.com/wp-content/uploads/2017/11/Crispy-Cheesy-Broccoli-Gratin-Square.jpg",
         "ingredients" : [
             {"ingredient": "Broccoli"},
             {"ingredient": "Butter"},
@@ -491,7 +493,7 @@
     },
     "Poor Man's Chicken Fried Steak" : {
         "name" : "Poor Man's Chicken Fried Steak",
-        "photoURL" :"",
+        "photoURL" :"https://images.media-allrecipes.com/userphotos/600x600/4570519.jpg",
         "ingredients" : [
             {"ingredient": "Beef"},
             {"ingredient": "Vegetable Oil"},
@@ -504,7 +506,7 @@
     },
     "Pork Sausage Paddies" : {
         "name" : "Pork Sausage Paddies",
-        "photoURL" :"",
+        "photoURL" :"https://www.tasteofhome.com/wp-content/uploads/2017/10/exps39594_FM143298C03_07_4b_WEB-696x696.jpg",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Onion"},
@@ -517,7 +519,7 @@
     },
     "Roasted Garlic and Lemon Potatoes" : {
         "name" : "Roasted Garlic and Lemon Potatoes",
-        "photoURL" :"",
+        "photoURL" :"https://www.fromvalerieskitchen.com/wordpress/wp-content/uploads/2012/08/Lemon-and-Garlic-Roasted-Potatoes-039-e1423616890361-1-500x500.jpg",
         "ingredients" : [
             {"ingredient": "Potato"},
             {"ingredient": "Olive Oil"},
@@ -530,7 +532,7 @@
     },
     "Roasted Garlic Mashed Potatoes" : {
         "name" : "Roasted Garlic Mashed Potatoes",
-        "photoURL" :"",
+        "photoURL" :"https://www.chatelaine.com/wp-content/uploads/2019/02/garlic-mashed-potatoes-810x810.jpg",
         "ingredients" : [
             {"ingredient": "Potato"},
             {"ingredient": "Olive Oil"},
@@ -543,7 +545,7 @@
     },
     "AIOLI (Garlic Mayonnaise)" : {
         "name" : "AIOLI (Garlic Mayonnaise)",
-        "photoURL" :"",
+        "photoURL" :"http://ukcdn.ar-cdn.com/recipes/port500/1e467cdf-c36e-4584-9dcb-65c5dbc17f8a.jpg",
         "ingredients" : [
             {"ingredient": "Egg"},
             {"ingredient": "Olive Oil"},
@@ -557,7 +559,7 @@
     },
     "Roasted Yellow Squash Salad" : {
         "name" : "Roasted Yellow Squash Salad",
-        "photoURL" :"",
+        "photoURL" :"https://k8643br9gv-flywheel.netdna-ssl.com/wp-content/uploads/2017/09/550-roasted-summer-squash-pesto.jpg",
         "ingredients" : [
             {"ingredient": "Squash"},
             {"ingredient": "Olive Oil"},
@@ -569,7 +571,7 @@
     },
     "Cheesy Sausage and Pepper Stuffed Acorn Squash" : {
         "name" : "Cheesy Sausage and Pepper Stuffed Acorn Squash",
-        "photoURL" :"",
+        "photoURL" :"https://k8643br9gv-flywheel.netdna-ssl.com/wp-content/uploads/2016/11/550-stuffed-acorn-squash-kalynskitchen.jpg",
         "ingredients" : [
             {"ingredient": "Squash"},
             {"ingredient": "Olive Oil"},
@@ -583,7 +585,7 @@
     },
     "Pumpkin Pastina" : {
         "name" : "Pumpkin Pastina",
-        "photoURL" :"",
+        "photoURL" :"https://parade.com/wp-content/uploads/2018/10/low-carb-pumpkin-risotto.jpg",
         "ingredients" : [
             {"ingredient": "Chicken Broth"},
             {"ingredient": "Olive Oil"},
