@@ -642,5 +642,13 @@
             {"ingredient": "Pasta"},
             {"ingredient": "Thyme"}
         ]
+    },
+    {
+        "count": 0,
+        "name" : "Pickle in a Jar",
+        "photoURL" :"https://i.imgur.com/qbXEeIb.jpg",
+        "ingredients" : [
+            {"ingredient": "Pickle"}
+        ]
     }
 ]}
