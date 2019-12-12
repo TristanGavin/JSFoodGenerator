@@ -22,15 +22,17 @@ xhttp.send();
 
 function insertRecipe(name, photoURL, ingredients, count){
   var recipeHTML = Handlebars.templates.recipeTemplate({
-      name: name,
-      photoURL: photoURL,
-      ingredients: ingredients,
-      count: count,
+    name: name,
+    photoURL: photoURL,
+    ingredients: ingredients
   });
-  var recipeContainer = document.getElementById("recipe-container");
-  recipeContainer.insertAdjacentHTML('beforeend', recipeHTML);
+
+  var recipeContainer = document.getElementById("recipe-section");
 
   console.log("==== postHTML", recipeHTML);
+  console.log(typeof(recipeHTML));
+  recipeContainer.insertAdjacentHTML('beforeend', recipeHTML);
+
 };
 
 
@@ -117,8 +119,7 @@ for(var i = 0; i < checkedRecipes.length; i++){
 }
 
 
-insertRecipe("checkedRecipes[i].name", "https://photo.foodgawker.com/wp-content/uploads/2019/04/3420589.jpg", "ing", 23);
-
+insertRecipe(recipes[0].name, 'https://i.imgur.com/qbXEeIb.jpg', recipes[0].ingredients, 0);
 
 
 
