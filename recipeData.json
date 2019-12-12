@@ -1,17 +1,5 @@
 {
     "recipes":[
-      {
-        "count": 0,
-        "name" : "Hamburger",
-        "photoURL" :"https://cookingwithcurls.com/wp-content/uploads/2016/06/These-amazing-Smashed-Burgers-are-simple-to-make-loaded-with-flavor-and-make-going-to-a-burger-joint-disappointing-cookingwit-500x500.jpg",
-        "ingredients" : [
-            {"ingredient": "Beef"},
-            {"ingredient": "Hamburger-Buns"},
-            {"ingredient": "Cheese"},
-            {"ingredient": "Lettuce"},
-            {"ingredient": "Tomato"}
-        ]
-    },
     {
         "count": 0,
         "name" : "Salad",
@@ -118,6 +106,18 @@
             {"ingredient": "Pasta"},
             {"ingredient": "Parmesan Cheese"},
             {"ingredient": "Black Pepper"}
+        ]
+    },
+    {
+        "count": 0,
+        "name" : "Hamburger",
+        "photoURL" :"https://cookingwithcurls.com/wp-content/uploads/2016/06/These-amazing-Smashed-Burgers-are-simple-to-make-loaded-with-flavor-and-make-going-to-a-burger-joint-disappointing-cookingwit-500x500.jpg",
+        "ingredients" : [
+            {"ingredient": "Beef"},
+            {"ingredient": "Hamburger-Buns"},
+            {"ingredient": "Cheese"},
+            {"ingredient": "Lettuce"},
+            {"ingredient": "Tomato"}
         ]
     },
     {
