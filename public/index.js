@@ -29,8 +29,7 @@ function insertRecipe(name, photoURL, ingredients, count){
 
   var recipeContainer = document.getElementById("recipe-section");
 
-  console.log("==== postHTML", recipeHTML);
-  console.log(typeof(recipeHTML));
+  // console.log("==== postHTML", recipeHTML);
   recipeContainer.insertAdjacentHTML('beforeend', recipeHTML);
 
 };
@@ -72,23 +71,13 @@ if(checkedIngredients.length == 0){
 
 
 
-var s = recipes.length;
+// var s = recipes.length;
 
-
-//  changes ingredients to strings so i can compare them to checkedIngredients
-// for(var i = 0; i < recipes.length; i++){
-//   for(var j = 0; j < recipes[i].ingredients.length; j++){
-//
-//     recipes[i].ingredients[j] = JSON.stringify(recipes[i].ingredients[j]);
-//     recipes[i].ingredients[j] = recipes[i].ingredients[j].split("\"");
-//     recipes[i].ingredients[j] = recipes[i].ingredients[j][3];
-//
-//   }
-// }
 
 
 //  array of recipes matching 1 or more ingredients
 var checkedRecipes = [];
+
 
 
 //  checks for instances where boxes checked match ingredients
@@ -107,19 +96,28 @@ for(var i = 0; i < recipes.length; i++){
 }
 
 
+for(var i = 0; i <= checkedRecipes.length-1; i++)
+{
+  var minIdx = i;
+    for(var j = i+1; j < checkedRecipes.length; j++)
+      if(checkedRecipes[j].count > checkedRecipes[minIdx].count)
+        minIdx = j;
+
+    var temp = checkedRecipes[minIdx];
+    checkedRecipes[minIdx] = checkedRecipes[i];
+    checkedRecipes[i] = temp;
+}
+
+
 
 console.log(checkedRecipes);
 
 for(var i = 0; i < checkedRecipes.length; i++){
-  // insertRecipe();
 
-  // console.log(checkedRecipes[i].name);
-  // console.log(checkedRecipes[i].photoURL);
-  // console.log(checkedRecipes[i].ingredients);
+  insertRecipe(checkedRecipes[i].name, checkedRecipes[i].photoURL, checkedRecipes[i].ingredients, 0);
 }
 
 
-insertRecipe(recipes[0].name, 'https://i.imgur.com/qbXEeIb.jpg', recipes[0].ingredients, 0);
 
 
 
