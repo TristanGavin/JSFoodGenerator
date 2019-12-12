@@ -139,6 +139,7 @@ window.addEventListener('DOMContentLoaded', function(){
     var getRecipesButton = document.getElementById("generate-recipes");
     getRecipesButton.addEventListener("click", function(){
       generateRecipes();
+      document.getElementById('recipe-section').scrollIntoView();
     });
   }
 
