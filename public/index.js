@@ -6,17 +6,18 @@ when Get Recipes! button is clicked needs to filter available recipes and post t
 */
 
 
+function getRecipes(){
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
 
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200) {
-
-    recipes = JSON.parse(xhttp.responseText);
-  }
-};
-xhttp.open("GET", "/recipes", true);
-xhttp.send();
-
+      recipes = JSON.parse(xhttp.responseText);
+    }
+  };
+  xhttp.open("GET", "/recipes", true);
+  xhttp.send();
+}
+getRecipes();
 
 
 
@@ -29,7 +30,6 @@ function insertRecipe(name, photoURL, ingredients, count){
 
   var recipeContainer = document.getElementById("recipe-section");
 
-  // console.log("==== postHTML", recipeHTML);
   recipeContainer.insertAdjacentHTML('beforeend', recipeHTML);
 
 };
@@ -37,9 +37,17 @@ function insertRecipe(name, photoURL, ingredients, count){
 
 
 //  checks all the checkboxes to see which ones are clicked. returns recipes containing checked checkboxes
-//  preferably in order of how many boxes are checked
+//  in order of how many boxes are checked
 function generateRecipes() {
 
+
+//  hides old recipe cards
+if(document.getElementsByClassName('recipe')){
+  var elem = document.getElementsByClassName('recipe');
+  for(var i = 0; i < elem.length; i++){
+    elem[i].hidden = true;
+  }
+}
 
 
   //  all checkboxes
@@ -62,16 +70,14 @@ function generateRecipes() {
 
 //  alerts user if no boxes are checked
 if(checkedIngredients.length == 0){
-  alert("Please check a box ");
+  alert("Please check a box.");
 }
 
+getRecipes();
 
+//  makes recipes array accessible
+recipes = recipes["recipes"];
 
-  recipes = recipes["recipes"];
-
-
-
-// var s = recipes.length;
 
 
 
@@ -96,24 +102,21 @@ for(var i = 0; i < recipes.length; i++){
 }
 
 
-for(var i = 0; i <= checkedRecipes.length-1; i++)
-{
+//  sorts recipes in descending order of number of ingredients matched
+for(var i = 0; i <= checkedRecipes.length-1; i++){
   var minIdx = i;
-    for(var j = i+1; j < checkedRecipes.length; j++)
-      if(checkedRecipes[j].count > checkedRecipes[minIdx].count)
+    for(var j = i+1; j < checkedRecipes.length; j++){
+      if(checkedRecipes[j].count > checkedRecipes[minIdx].count){
         minIdx = j;
-
+      }
+    }
     var temp = checkedRecipes[minIdx];
     checkedRecipes[minIdx] = checkedRecipes[i];
     checkedRecipes[i] = temp;
 }
 
 
-
-console.log(checkedRecipes);
-
 for(var i = 0; i < checkedRecipes.length; i++){
-
   insertRecipe(checkedRecipes[i].name, checkedRecipes[i].photoURL, checkedRecipes[i].ingredients, 0);
 }
 
