@@ -104,7 +104,7 @@ legend {
 
 /* ==== Recipe Card Photoes ==== */
 
-.recipe-section{
+#recipe-section{
   display: flex;
   flex-wrap: wrap;
 }
