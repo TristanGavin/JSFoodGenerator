@@ -12,6 +12,15 @@ header{
   display: flex;
   background-color: #dededf;
 }
+a{
+ color:#f67811 ;
+ text-decoration: none;
+
+}
+a:hover{
+  text-decoration: underline;
+
+}
 
 .site-title{
   font-size: 35px;

@@ -4,6 +4,7 @@
         "count": 0,
         "name" : "Salad",
         "photoURL" :"https://www.thespruceeats.com/thmb/wVOGDIIb6b-lfnFHcWPj7-bZZIU=/1672x1672/smart/filters:no_upscale()/perfectgreensalad2500-5993ab28c412440011db26df.jpg",
+        "recipeURL":"https://www.thespruceeats.com/how-to-make-the-perfect-salad-4148151",
         "ingredients" : [
             {"ingredient": "Lettuce"},
             {"ingredient": "Tomato"},
@@ -16,6 +17,7 @@
         "count": 0,
         "name" : "Chicken Parmesan",
         "photoURL" :"https://www.cookingclassy.com/wp-content/uploads/2013/02/chicken-parmesan-16-500x500.jpg",
+        "recipeURL":"https://www.delish.com/cooking/recipe-ideas/recipes/a51451/easy-chicken-parmesan-recipe/",
         "ingredients" : [
             {"ingredient": "Chicken"},
             {"ingredient": "Black-Pepper"},
@@ -34,6 +36,7 @@
         "count": 0,
         "name" : "Zucchini and  Green Bean Salad",
         "photoURL" :"https://food.unl.edu/recipes/zucchini-kidney-bean-recipe.jpg",
+        "recipeURL":"https://food.unl.edu/recipe/zucchini-and-kidney-bean-salad",
         "ingredients" : [
             {"ingredient": "Vegetable Oil"},
             {"ingredient": "Vinegar"},
@@ -47,6 +50,7 @@
         "count": 0,
         "name" : "BLT sandwhich",
         "photoURL" :"https://res.cloudinary.com/hksqkdlah/image/upload/v1481143592/31058_sfs-ultimate-blt-sandwich-16.jpg",
+        "recipeURL":"https://themom100.com/recipe/the-ultimate-blt-sandwich/",
         "ingredients" : [
             {"ingredient": "Bacon"},
             {"ingredient": "Lettuce"},
@@ -59,6 +63,7 @@
         "count": 0,
         "name" : "Grilled Cheese Sandwhich",
         "photoURL" :"https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/Super-Grilled-Cheese-Sandwiches_exps39652_TOHCS2321916B06_14_3b_RMS.jpg",
+        "recipeURL":"https://www.allrecipes.com/recipe/23891/grilled-cheese-sandwich/",
         "ingredients" : [
             {"ingredient": "Butter"},
             {"ingredient": "Bread"},
@@ -69,6 +74,7 @@
         "count": 0,
         "name" : "Chicken Salad",
         "photoURL" :"https://dinnerthendessert.com/wp-content/uploads/2019/01/Classic-Chicken-Salad-2-500x500.jpg",
+        "recipeURL":"https://dinnerthendessert.com/chicken-salad/",
         "ingredients" : [
             {"ingredient": "Mayonnaise"},
             {"ingredient": "Greek Yogurt"},
@@ -86,6 +92,7 @@
         "count": 0,
         "name" : "Bacon Cheese Burger",
         "photoURL" :"https://d1doqjmisr497k.cloudfront.net/-/media/mccormick-us/recipes/frenchs/t/800/triple_mustard_bacon_cheese_burger800x800.jpg",
+        "recipeURL":"https://www.mccormick.com/frenchs/recipes/main-dish/triple-mustard-bacon-cheeseburger",
         "ingredients" : [
             {"ingredient": "Bacon"},
             {"ingredient": "Beef"},
@@ -97,6 +104,7 @@
         "count": 0,
         "name" : "Pasta With Tomato Sauce",
         "photoURL" :"https://steemitimages.com/p/o1AJ9qDyyJNSg3j52kokyfvD831NZXqF92M1fFLfFKGir4974?format=match&mode=fit&width=640",
+        "recipeURL":"https://tasty.co/recipe/penne-with-tomato-sauce",
         "ingredients" : [
             {"ingredient": "Olive Oil"},
             {"ingredient": "Garlic"},
@@ -112,6 +120,7 @@
         "count": 0,
         "name" : "Hamburger",
         "photoURL" :"https://cookingwithcurls.com/wp-content/uploads/2016/06/These-amazing-Smashed-Burgers-are-simple-to-make-loaded-with-flavor-and-make-going-to-a-burger-joint-disappointing-cookingwit-500x500.jpg",
+        "recipeURL":"https://cookingwithcurls.com/2016/06/07/smashed-burgers/",
         "ingredients" : [
             {"ingredient": "Beef"},
             {"ingredient": "Hamburger-Buns"},
@@ -124,6 +133,7 @@
         "count": 0,
         "name" : "Pasta Carbonara",
         "photoURL" :"https://d1doqjmisr497k.cloudfront.net/-/media/mccormick-us/recipes/grill-mates/s/800/smoky_applewood_bacon_pasta_carbonara_800x800.jpg",
+        "recipeURL":"https://www.mccormick.com/grill-mates/recipes/main-dishes/smoky-applewood-bacon-pasta-carbonara",
         "ingredients" : [
             {"ingredient": "Pasta"},
             {"ingredient": "Garlic"},
@@ -139,6 +149,7 @@
         "count": 0,
         "name" : "One Pot Pasta with Sausage",
         "photoURL" :"https://www.smells-like-home.com/wp-content/uploads/2017/03/One-Pot-Creamy-Sausage-Pasta-square-cropped.jpeg",
+        "recipeURL":"https://www.smells-like-home.com/2015/02/one-pot-creamy-sausage-pasta/",
         "ingredients" : [
             {"ingredient": "Olive Oil"},
             {"ingredient": "Garlic"},
@@ -157,6 +168,7 @@
         "count": 0,
         "name" : "Pasta Bolognese",
         "photoURL" :"https://www.recipetineats.com/wp-content/uploads/2018/07/Spaghetti-Bolognese-500x500.jpg",
+        "recipeURL":"https://www.recipetineats.com/spaghetti-bolognese/",
         "ingredients" : [
             {"ingredient": "Olive Oil"},
             {"ingredient": "Garlic"},
@@ -178,6 +190,7 @@
         "count": 0,
         "name" : "Rice Pilaf",
         "photoURL" :"https://photo.foodgawker.com/wp-content/uploads/2019/04/3420589.jpg",
+        "recipeURL":"https://letthebakingbegin.com/instant-pot-beef-rice-plov/",
         "ingredients" : [
             {"ingredient": "Butter"},
             {"ingredient": "Carrot"},
@@ -199,6 +212,7 @@
         "count": 0,
         "name" : "Tuna Salad Sandwhich",
         "photoURL" :"https://kristineskitchenblog.com/wp-content/uploads/2019/05/tuna-salad-700-6061-1-500x500.jpg",
+        "recipeURL":"https://kristineskitchenblog.com/tuna-salad/",
         "ingredients" : [
             {"ingredient": "Mayonnaise"},
             {"ingredient": "Celery"},
