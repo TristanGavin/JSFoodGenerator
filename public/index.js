@@ -21,16 +21,18 @@ getRecipes();
 
 
 
-function insertRecipe(name, photoURL, ingredients, count){
+function insertRecipe(name, photoURL,recipeURL,ingredients,count){
   var recipeHTML = Handlebars.templates.recipeTemplate({
     name: name,
     photoURL: photoURL,
+    recipeURL: recipeURL,
     ingredients: ingredients
-  });
 
+  });
   var recipeContainer = document.getElementById("recipe-section");
 
   recipeContainer.insertAdjacentHTML('beforeend', recipeHTML);
+  console.log(recipeContainer);
 
 };
 
@@ -117,7 +119,7 @@ for(var i = 0; i <= checkedRecipes.length-1; i++){
 
 
 for(var i = 0; i < checkedRecipes.length; i++){
-  insertRecipe(checkedRecipes[i].name, checkedRecipes[i].photoURL, checkedRecipes[i].ingredients, 0);
+  insertRecipe(checkedRecipes[i].name, checkedRecipes[i].photoURL, checkedRecipes[i].recipeURL,checkedRecipes[i].ingredients,0);
 }
 
 
