@@ -18,10 +18,6 @@ app.set('view engine', 'handlebars');
 //serve css and client.js
 app.use(express.static('public'));
 
-app.get('/', function (req, res, next) {
-  res.status(200).sendFile(__dirname + '/public/index.html');
-});
-
 //  THIS SHOULD SERVE RECIPDATA.JSON TO INDEX.JS
 app.get('/recipes', function(req, res, next){
 
@@ -36,6 +32,13 @@ app.get('/recipes', function(req, res, next){
 
 // sends index with categoryData to the body of main.
 app.get('/index.html', function(req, res, next){
+  console.log(req.url, 'success')
+  res.render('index', {
+    categoryData: categoryData
+  })
+});
+
+app.get('/', function(req, res, next){
   console.log(req.url, 'success')
   res.render('index', {
     categoryData: categoryData
