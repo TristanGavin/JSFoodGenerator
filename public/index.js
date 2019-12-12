@@ -5,17 +5,13 @@ when Get Recipes! button is clicked needs to filter available recipes and post t
 
 */
 
-//get handlebarred recipe. (name= name of recipe, photurl=picture of recipe, ingredients= array of ingredients)
 
-var recipes = "fuck my life";
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
 
     recipes = JSON.parse(xhttp.responseText);
-    // console.log(recipes);
-    // alert(recipes.hamburger );
   }
 };
 xhttp.open("GET", "/recipes", true);
@@ -24,13 +20,13 @@ xhttp.send();
 
 
 
-
-function insertRecipe(name, photoURL, ingredients){
-  var recipeHTML = Handlebars.templates.recipe({
+function insertRecipe(name, photoURL, ingredients, count){
+  var recipeHTML = Handlebars.templates.recipeTemplate({
       name: name,
       photoURL: photoURL,
       ingredients: ingredients,
-      });
+      count: count,
+  });
   var recipeContainer = document.getElementById("recipe-container");
   recipeContainer.insertAdjacentHTML('beforeend', recipeHTML);
 
@@ -43,8 +39,7 @@ function insertRecipe(name, photoURL, ingredients){
 //  preferably in order of how many boxes are checked
 function generateRecipes() {
 
-  console.log("clicked")
-  // var recipes = require('./../recipeData.json');
+
 
   //  all checkboxes
   var boxes = document.getElementsByTagName('input');
@@ -58,16 +53,71 @@ function generateRecipes() {
   if(window){
     for(var i = 0; i < boxes.length; i++){
       if(boxes[i].checked){
-        console.log(boxes[i].value);
         checkedIngredients[count] = boxes[i].value;
         count++;
       }
     }
   }
 
-  console.log(recipes[0]);
+//  alerts user if no boxes are checked
+if(checkedIngredients.length == 0){
+  alert("Please check a box ");
+}
 
 
+
+  recipes = recipes["recipes"];
+
+
+
+var s = recipes.length;
+
+
+//  changes ingredients to strings so i can compare them to checkedIngredients
+// for(var i = 0; i < recipes.length; i++){
+//   for(var j = 0; j < recipes[i].ingredients.length; j++){
+//
+//     recipes[i].ingredients[j] = JSON.stringify(recipes[i].ingredients[j]);
+//     recipes[i].ingredients[j] = recipes[i].ingredients[j].split("\"");
+//     recipes[i].ingredients[j] = recipes[i].ingredients[j][3];
+//
+//   }
+// }
+
+
+//  array of recipes matching 1 or more ingredients
+var checkedRecipes = [];
+
+
+//  checks for instances where boxes checked match ingredients
+//  adds matched recipes to checkedRecipes
+for(var i = 0; i < recipes.length; i++){
+  for(var j = 0; j < recipes[i].ingredients.length; j++){
+    for(var k = 0; k < checkedIngredients.length; k++){
+      if(checkedIngredients[k] == recipes[i].ingredients[j].ingredient){
+          if(recipes[i].count == 0){
+            checkedRecipes[checkedRecipes.length] = recipes[i];
+          }
+        recipes[i].count++;
+      }
+    }
+  }
+}
+
+
+
+console.log(checkedRecipes);
+
+for(var i = 0; i < checkedRecipes.length; i++){
+  // insertRecipe();
+
+  // console.log(checkedRecipes[i].name);
+  // console.log(checkedRecipes[i].photoURL);
+  // console.log(checkedRecipes[i].ingredients);
+}
+
+
+insertRecipe("checkedRecipes[i].name", "https://photo.foodgawker.com/wp-content/uploads/2019/04/3420589.jpg", "ing", 23);
 
 
 
@@ -75,12 +125,20 @@ function generateRecipes() {
 }
 
 
+
+
+
+
+
+
 window.addEventListener('DOMContentLoaded', function(){
 
-  var getRecipesButton = document.getElementById("generate-recipes");
-  getRecipesButton.addEventListener("click", function(){
-    generateRecipes();
-  });
+  if(document.getElementById("generate-recipes")){
+    var getRecipesButton = document.getElementById("generate-recipes");
+    getRecipesButton.addEventListener("click", function(){
+      generateRecipes();
+    });
+  }
 
 
 
