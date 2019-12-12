@@ -336,7 +336,7 @@
         "name" : "Brussel Sprouts with Bacon",
         "photoURL" :"https://images.media-allrecipes.com/userphotos/960x960/4572835.jpg",
         "ingredients" : [
-            {"ingredient": "Brussle Sprouts"},
+            {"ingredient": "Brussel Sprouts"},
             {"ingredient": "Bacon"},
             {"ingredient": "Salt"},
             {"ingredient": "Black Pepper"}
